@@ -1,4 +1,5 @@
-"Cocino sólo para mi" es una pieza web interactiva que ayuda a tomar decisiones a la hora cocinar para uno mismo... o bueno, al menos lo intenta.
+"Cocino sólo para mi" es una pieza web interactiva que ayuda a tomar decisiones a la hora cocinar para uno mismo...
+o bueno, al menos lo intenta.
 
 ![Dibujos Menú del Día](assets/readme/readme_4.jpg)
 
