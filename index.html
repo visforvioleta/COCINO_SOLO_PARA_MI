@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Oráculo de la Olla</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hydra lives behind everything -->
+  <canvas id="hydra-canvas"></canvas>
+
+  <!-- Paper grain overlay -->
+  <div class="grain"></div>
+
+  <!-- Page border -->
+  <div class="border-frame"></div>
+
+  <!-- ── UI ── -->
+  <main id="app">
+
+    <header class="masthead">
+      <div class="rule"></div>
+            <br>
+      <p class="eyebrow">✦ Oráculo doméstico para el autocuidado ✦</p>
+      <h1>Cocino sólo para mi</h1>
+      <p class="sub">(...y no me siento bien, ni mal)</p>
+      <br>
+      <div class="rule"></div>
+    </header>
+
+    <!-- p5 mounts here -->
+    <div id="canvas-host"></div>
+
+    <button id="consult-btn">
+      <span class="btn-inner">¿Qué puedo comer hoy?</span>
+    </button>
+
+    <p class="hint">— haz click en la olla para obtener tu receta —</p>
+
+  </main>
+
+  <!-- ══ MODAL ══ -->
+  <div id="modal" aria-hidden="true">
+    <div class="modal-sheet" role="dialog">
+
+      <div class="sheet-top-rule"></div>
+      <h2 class="modal-title">La olla ha hablado</h2>
+      <div class="sheet-top-rule thin"></div>
+<br>
+       <!--<p class="ornament">❧ &nbsp; ❧ &nbsp; ❧</p>-->
+
+      <div id="ingredients-row"></div>
+
+      <div class="divider"><span>✦</span></div>
+
+      <p id="oracle-msg"></p>
+
+      <div class="modal-btns">
+        <button id="try-again-btn" class="btn-stamp primary">Otra combinación</button>
+        <button id="close-btn"     class="btn-stamp secondary">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+  <script src="https://unpkg.com/hydra-synth"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
