@@ -1,7 +1,6 @@
 "Cocino sólo para mi" es una pieza web interactiva que ayuda a tomar decisiones a la hora cocinar para uno mismo... o bueno, al menos lo intenta.
 
-![Dibujos Menú del Día](assets/readme/readme_1.jpg)
-![Dibujos Menú del Día](assets/readme/readme_2.jpg)
+![Dibujos Menú del Día](assets/readme/readme_1.jpg) ![Dibujos Menú del Día](assets/readme/readme_2.jpg)
 
 Llevo algunos meses retratando las comidas que preparo al vivir sola. Mi relación con la alimentación es inestable desde la adolescencia y los tiempos actuales tampoco ayudan mucho. Muchas veces termino comiendo mal y/o de forma desordenada, entonces cada vez que logro hacer un almuerzo más balanceado un poco que me celebro a mi misma. Un mínimo de  decencia (y de madurez). Pienso entonces en el acto de cocinar como acto amor, de cariño y autocuidado, nutrirse a uno mismo y de buena forma. Pienso entonces en mi madre y como se la arreglaba con poco para hacer banquetes y en tiempo record, muy habilidosa.
 
